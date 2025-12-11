@@ -8,6 +8,7 @@ export interface Landmark {
   name: string;
   description: string;
   baseImageUrl: string; // Background for selfie
+  markerUrl?: string; // Custom icon for map marker
   emoji: string; // Cartoon icon for map marker
   coordinates?: Coordinates; // Optional specific coordinates
 }
