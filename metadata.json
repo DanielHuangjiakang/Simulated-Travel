@@ -1,0 +1,9 @@
+{
+  "name": "Simulated Travel",
+  "description": "A gamified, voxel-style travel simulator where you fly to cities and take selfies at landmarks using your own photo.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
